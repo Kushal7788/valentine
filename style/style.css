@@ -404,7 +404,7 @@ h1.one span#name {
   box-shadow: 0 0 30px rgba(255, 105, 180, 0.4);
   visibility: hidden;
   opacity: 0;
-  max-width: 35%;
+  max-width: 60%;
 }
 
 .six img {
