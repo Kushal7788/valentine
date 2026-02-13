@@ -155,7 +155,7 @@ body {
 }
 
 .container div.six {
-  top: 10vh;
+  top: 5vh;
   z-index: 1;
 }
 
@@ -171,7 +171,7 @@ body {
   position: absolute;
   left: 0;
   right: 0;
-  top: 20vh;
+  top: 10vh;
 }
 
 .one {
@@ -327,7 +327,7 @@ h1.one span#name {
   position: absolute;
   left: 0;
   right: 0;
-  top: 10vh;
+  top: 5vh;
   z-index: 10;
   visibility: hidden;
   opacity: 0;
@@ -524,7 +524,7 @@ h1.one span#name {
 }
 
 .wish {
-  padding-top: 30px;
+  padding-top: 15px;
 }
 
 .wish-hbd {
@@ -549,12 +549,18 @@ h1.one span#name {
 
 .wish h5 {
   font-weight: lighter;
-  font-size: 1.6rem;
-  margin: 20px 0 0;
+  font-size: 1.2rem;
+  margin: 15px 10px 0;
+  padding: 0 15px;
   font-family: 'Playfair Display', serif;
   font-style: italic;
   color: #ffb6c1;
   text-shadow: 0 0 15px rgba(255, 182, 193, 0.5);
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .nine p {
